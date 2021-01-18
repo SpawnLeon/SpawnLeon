@@ -1,6 +1,6 @@
 ### Hi there 👋
 #### About me:
-I'm a Frontend.
+
 ---
 #### Contacts:
 <a target='_blank' title='LinkedIn' href="https://www.linkedin.com/in/alalleonov/">LinkedIn</a>
