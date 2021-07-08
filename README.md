@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <img height="170em" align="left" alt="Github Lnguages" src="https://github-readme-codewars-stats.herokuapp.com/api/?username=SpawnLeon&card&colormode=dark_mode" />
-<img height="170em" align="left" alt="Github Lnguages" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=SpawnLeon&theme=radical&layout=compact" />
+<img height="170em" align="left" alt="Github Lnguages" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=SpawnLeon&theme=radical&layout=compact" />\
 
 
 ---
