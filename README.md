@@ -12,8 +12,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<img height="170em"  align="right" alt="Github Lnguages" src="https://github-readme-codewars-stats.herokuapp.com/api/?username=SpawnLeon&card&colormode=dark_mode" />
-<img height="170em"  alt="Github Lnguages" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=SpawnLeon&theme=radical&layout=compact" />
+<img height="170em"  align="right" alt="Github Lnguages" src="https://github-readme-codewars-stats.herokuapp.com/api/?username=SpawnLeon&card&colormode=bright_mode" />
+<img height="170em"  alt="Github Lnguages" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=SpawnLeon&layout=compact" />
 
 
 ---
