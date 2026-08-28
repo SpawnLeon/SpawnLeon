@@ -11,12 +11,12 @@
 <a href="https://t.me/spawnleon">
   <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
 </a>
+
 <a href="https://github.com/SpawnLeon">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
-<br>
-<br>
+<br><br>
 
 <img src="https://komarev.com/ghpvc/?username=SpawnLeon&style=flat-square&color=26A5E4&label=Просмотры+профиля" />
 
@@ -27,6 +27,15 @@
 ## 👨‍💻 Обо мне
 
 ```ts
+type DeveloperProfile = {
+  readonly role: "Fullstack Developer";
+  readonly frontend: readonly string[];
+  readonly backend: readonly string[];
+  readonly databases: readonly string[];
+  readonly integrations: readonly string[];
+  readonly infrastructure: readonly string[];
+};
+
 const spawnLeon = {
   role: "Fullstack Developer",
 
@@ -46,13 +55,13 @@ const spawnLeon = {
     "REST API",
     "WebSocket",
     "RabbitMQ",
+    "Sequelize",
   ],
 
   databases: [
     "MySQL",
     "PostgreSQL",
     "Redis",
-    "Sequelize",
   ],
 
   integrations: [
@@ -72,7 +81,7 @@ const spawnLeon = {
     "Git",
     "Sentry",
   ],
-};
+} as const satisfies DeveloperProfile;
 ```
 
 ## 🛠 Технологии
@@ -87,61 +96,52 @@ const spawnLeon = {
 
 ## 🍣 Production-опыт: Fuji
 
-Участвую в разработке и поддержке экосистемы сервиса доставки еды:
+Участвую в разработке и поддержке экосистемы сервиса доставки еды.
 
-* клиентский фронтенд на **Nuxt 2 / Vue 2**
-* отдельные frontend-ветки `web-v1` и `app-v1` для сайта и мобильного приложения
+### Frontend
+
+* клиентский сайт на **Nuxt 2 / Vue 2**
 * мобильное приложение на **Capacitor**
 * административная панель на **Nuxt 3 / Vue 3 / Pinia**
+* SSR, PWA и WebSocket
+* корзина, оформление заказов, профиль пользователя и конфигураторы товаров
+
+### Backend
+
 * API на **Node.js / Fastify / Sequelize / MySQL**
-* отдельный сервис уведомлений на **Express / RabbitMQ / Firebase**
-* SSR, PWA, WebSocket и синхронизация клиентского каталога
-* оформление заказов, корзина, профиль и конфигураторы товаров
-* зоны доставки и геолокация через **Яндекс Карты**
-* интеграция заказов и каталога с **iiko**
-* онлайн-оплата и формирование электронных чеков
-* SMS-, push- и email-уведомления
-* асинхронные массовые рассылки через **RabbitMQ**
-* мониторинг ошибок, структурированные логи и эксплуатация сервисов под **PM2**
+* отдельный сервис уведомлений на **Express**
+* асинхронная обработка задач через **RabbitMQ**
+* работа с кешированием и Redis
+* фоновые задачи и массовые рассылки
+
+### Интеграции
+
+* **iiko** — каталог и заказы
+* **Яндекс Карты** — геолокация и зоны доставки
+* **CloudPayments / Sberbank** — онлайн-оплата
+* **Firebase** — push-уведомления
+* **SMSC** — SMS
+* электронные чеки и email-уведомления
+
+### Production
+
+* анализ и устранение production-инцидентов
+* оптимизация SQL-запросов и кеширования
+* структурированные логи и мониторинг ошибок
+* эксплуатация Node.js-сервисов под **PM2 / Nginx**
+* поддержка совместимости между несколькими версиями клиентов
 
 ---
 
 ## 🚀 Чем занимаюсь
 
-* Разрабатываю функциональность одновременно для сайта, приложения, API и административной панели
-* Проектирую REST API и асинхронное взаимодействие между сервисами
+* Разрабатываю функциональность для сайта, мобильного приложения, API и административной панели
+* Проектирую REST API и взаимодействие между сервисами
+* Работаю с MySQL, PostgreSQL и Redis
 * Интегрирую платежные системы, POS, карты и сервисы уведомлений
-* Работаю с MySQL, PostgreSQL, Redis и Sequelize
-* Разбираю production-инциденты и устраняю проблемы надежности
-* Поддерживаю обратную совместимость между несколькими версиями клиентов
-* Оптимизирую запросы, кеширование и обработку фоновых задач
-* Стараюсь писать код, который не превращается в археологический объект через полгода
-
----
-
-## 📊 GitHub статистика
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=SpawnLeon&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SpawnLeon&layout=compact&hide_border=true&theme=github_dark" />
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=SpawnLeon&theme=github-dark-blue&hide_border=true" />
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SpawnLeon&theme=github-compact&hide_border=true&area=true" />
-
-</div>
+* Разбираю production-инциденты и проблемы производительности
+* Оптимизирую запросы, кеширование и фоновые задачи
+* Поддерживаю legacy-код и постепенно модернизирую существующие системы
 
 ---
 
